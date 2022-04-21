@@ -1,0 +1,10 @@
+0 silly argv { _: [ 'create' ], lernaVersion: '4.0.0', '$0': 'lerna', name: 'core' }
+1 notice cli v4.0.0
+2 verbose rootPath /home/jbing/Vue/xjb521-dev
+3 error Error: Command failed with exit code 1: git config --get user.name
+3 error     at makeError (/home/jbing/Vue/xjb521-dev/node_modules/_execa@5.1.1@execa/lib/error.js:60:11)
+3 error     at Function.module.exports.sync (/home/jbing/Vue/xjb521-dev/node_modules/_execa@5.1.1@execa/index.js:194:17)
+3 error     at Object.execSync (/home/jbing/Vue/xjb521-dev/node_modules/_@lerna_child-process@4.0.0@@lerna/child-process/index.js:39:16)
+3 error     at CreateCommand.gitConfig (/home/jbing/Vue/xjb521-dev/node_modules/_@lerna_create@4.0.0@@lerna/create/index.js:181:25)
+3 error     at CreateCommand.initialize (/home/jbing/Vue/xjb521-dev/node_modules/_@lerna_create@4.0.0@@lerna/create/index.js:103:46)
+3 error     at /home/jbing/Vue/xjb521-dev/node_modules/_@lerna_command@4.0.0@@lerna/command/index.js:274:24
