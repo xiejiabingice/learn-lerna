@@ -1,9 +1,4 @@
-31 error Error: Command failed with exit code 1: git add -- packages/utils/package.json packages/utils/package-lock.json packages/core/package.json packages/core/package-lock.json lerna.json
-31 error 下列路径根据您的一个 .gitignore 文件而被忽略：
-31 error packages/core/package-lock.json
-31 error packages/utils/package-lock.json
-31 error 使用 -f 参数如果您确实要添加它们。
-31 error     at makeError (/home/jbing/Vue/xjb521-dev/node_modules/_execa@5.1.1@execa/lib/error.js:60:11)
-31 error     at handlePromise (/home/jbing/Vue/xjb521-dev/node_modules/_execa@5.1.1@execa/index.js:118:26)
-31 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
-31 error     at async Promise.all (index 0)
+46 error Error: Command failed with exit code 128: git push --follow-tags --no-verify --atomic origin master
+46 error fatal: 无法访问 'https://github.com/xiejiabingice/learn-lerna.git/'：GnuTLS recv error (-110): The TLS connection was non-properly terminated.
+46 error     at makeError (/home/jbing/Vue/xjb521-dev/node_modules/_execa@5.1.1@execa/lib/error.js:60:11)
+46 error     at handlePromise (/home/jbing/Vue/xjb521-dev/node_modules/_execa@5.1.1@execa/index.js:118:26)
