@@ -18,5 +18,6 @@
   },
   "dependencies": {
     "imooc-test-xjb": "^1.0.0"
-  }
+  },
+  "gitHead": "bc92cc401b7ec9a2a0406930a6022d2c1751dadc"
 }
