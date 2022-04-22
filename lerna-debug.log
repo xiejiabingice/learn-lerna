@@ -1,10 +1,9 @@
-15 error Error: Command failed with exit code 1: git remote update
-15 error fatal: 无法访问 'https://github.com/xiejiabingice/learn-lerna.git/'：Could not resolve host: github.com
-15 error error: 不能获取 origin
-15 error 正在获取 origin
-15 error     at makeError (/home/jbing/Vue/xjb521-dev/node_modules/_execa@5.1.1@execa/lib/error.js:60:11)
-15 error     at Function.module.exports.sync (/home/jbing/Vue/xjb521-dev/node_modules/_execa@5.1.1@execa/index.js:194:17)
-15 error     at Object.execSync (/home/jbing/Vue/xjb521-dev/node_modules/_@lerna_child-process@4.0.0@@lerna/child-process/index.js:39:16)
-15 error     at updateRemote (/home/jbing/Vue/xjb521-dev/node_modules/_@lerna_version@4.0.0@@lerna/version/lib/is-behind-upstream.js:34:16)
-15 error     at isBehindUpstream (/home/jbing/Vue/xjb521-dev/node_modules/_@lerna_version@4.0.0@@lerna/version/lib/is-behind-upstream.js:16:3)
-15 error     at VersionCommand.initialize (/home/jbing/Vue/xjb521-dev/node_modules/_@lerna_version@4.0.0@@lerna/version/index.js:153:9)
+31 error Error: Command failed with exit code 1: git add -- packages/utils/package.json packages/utils/package-lock.json packages/core/package.json packages/core/package-lock.json lerna.json
+31 error 下列路径根据您的一个 .gitignore 文件而被忽略：
+31 error packages/core/package-lock.json
+31 error packages/utils/package-lock.json
+31 error 使用 -f 参数如果您确实要添加它们。
+31 error     at makeError (/home/jbing/Vue/xjb521-dev/node_modules/_execa@5.1.1@execa/lib/error.js:60:11)
+31 error     at handlePromise (/home/jbing/Vue/xjb521-dev/node_modules/_execa@5.1.1@execa/index.js:118:26)
+31 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+31 error     at async Promise.all (index 0)
