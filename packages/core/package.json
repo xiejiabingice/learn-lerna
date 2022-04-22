@@ -1,6 +1,6 @@
 {
   "name": "@xjb521-dev/core",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "core",
   "author": "Xie jiabing <xie@xie@gmail.com>",
   "homepage": "",
@@ -17,7 +17,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@xjb521-dev/utils": "^1.0.1",
+    "@xjb521-dev/utils": "^1.0.2",
     "imooc-test-xjb": "^1.0.0"
   }
 }
